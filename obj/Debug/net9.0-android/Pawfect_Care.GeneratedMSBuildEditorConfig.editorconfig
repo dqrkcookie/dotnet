@@ -1,0 +1,67 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Pawfect_Care
+build_property.ProjectDir = C:\Users\DarkCookie\source\repos\Pawfect_Care\Pawfect_Care\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/Profile.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.Profile.xaml
+build_metadata.AdditionalFiles.TargetPath = Profile.xaml
+build_metadata.AdditionalFiles.RelativePath = Profile.xaml
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/Scheduler.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.Scheduler.xaml
+build_metadata.AdditionalFiles.TargetPath = Scheduler.xaml
+build_metadata.AdditionalFiles.RelativePath = Scheduler.xaml
+
+[C:/Users/DarkCookie/source/repos/Pawfect_Care/Pawfect_Care/TaskList.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Pawfect_Care.TaskList.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskList.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskList.xaml
