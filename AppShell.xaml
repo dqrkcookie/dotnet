@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Pawfect_Care.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Pawfect_Care"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Pawfect_Care">
+
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="pet_house.png"
+            Route="MainPage" />
+
+        <ShellContent
+            Title="Profile"
+            ContentTemplate="{DataTemplate local:Profile}"
+            Icon="dog.png"
+            Route="Profile" />
+
+        <ShellContent
+            Title="Scheduler"
+            ContentTemplate="{DataTemplate local:Scheduler}"
+            Icon="treat.png"
+            Route="Scheduler" />
+
+        <ShellContent
+            Title="Task List"
+            ContentTemplate="{DataTemplate local:TaskList}"
+            Icon="daycare.png"
+            Route="TaskList" />
+    </TabBar>
+    
+
+</Shell>
