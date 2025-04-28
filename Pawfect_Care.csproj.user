@@ -6,6 +6,7 @@
     <ActiveDebugProfile>Pixel 6 Pro - API 33 (Android 13.0 - API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
     <DefaultDevice>pixel_6_pro_-_api_33</DefaultDevice>
+    <SelectedDevice>pixel_6_pro_-_api_33</SelectedDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>

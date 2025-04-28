@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pawfect_Care")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+740683399aa180ea17eca2518251befb70c50008")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+09349a2dd96d37db62cf974d3c2fee056642cdd1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pawfect_Care")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pawfect_Care")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

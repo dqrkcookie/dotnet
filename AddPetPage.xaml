@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pawfect_Care.AddPetPage"
+             Title="Add New Pet">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Frame 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                HeightRequest="150"
+                WidthRequest="150"
+                CornerRadius="75"
+                BorderColor="{StaticResource Primary}"
+                Padding="0"
+                Margin="0,5,0,10">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSelectImageTapped"/>
+                </Frame.GestureRecognizers>
+
+                <Grid>
+                    <Image
+                        x:Name="PetImage"
+                        Source="pet_placeholder.png"
+                        Aspect="AspectFill"/>
+
+                    <Label
+                        Text="Tap to add photo"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        TextColor="White"
+                        BackgroundColor="#80000000"
+                        Padding="5"/>
+                </Grid>
+            </Frame>
+
+            <Label Text="Pet Name" FontSize="Subtitle" FontAttributes="Bold"/>
+            <Frame BorderColor="LightGray" CornerRadius="10" Padding="5" HasShadow="False">
+                <Entry 
+                    x:Name="NameEntry"
+                    Placeholder="Enter pet name"
+                    ClearButtonVisibility="WhileEditing"/>
+            </Frame>
+
+            <Label Text="Gender" FontSize="Subtitle" FontAttributes="Bold"/>
+            <Frame BorderColor="LightGray" CornerRadius="10" Padding="5" HasShadow="False">
+                <Entry 
+                    x:Name="GenderEntry"
+                    Placeholder="Enter pet gender"
+                    ClearButtonVisibility="WhileEditing"/>
+            </Frame>
+
+            <Grid ColumnDefinitions="*, *" ColumnSpacing="10">
+                <!-- Age - Left Column -->
+                <VerticalStackLayout Grid.Column="0">
+                    <Label Text="Age" FontSize="Subtitle" FontAttributes="Bold" Margin="5,10"/>
+                    <Frame BorderColor="LightGray" CornerRadius="10" Padding="5" HasShadow="False">
+                        <Entry 
+                            x:Name="AgeEntry"
+                            Placeholder="Enter pet age"
+                            Keyboard="Numeric"
+                            ClearButtonVisibility="WhileEditing"/>
+                    </Frame>
+                </VerticalStackLayout>
+
+                <!-- Breed - Right Column -->
+                <VerticalStackLayout Grid.Column="1">
+                    <Label Text="Breed" FontSize="Subtitle" FontAttributes="Bold" Margin="5,10"/>
+                    <Frame BorderColor="LightGray" CornerRadius="10" Padding="5" HasShadow="False">
+                        <Entry 
+                            x:Name="BreedEntry"
+                            Placeholder="Enter pet breed"
+                            ClearButtonVisibility="WhileEditing"/>
+                    </Frame>
+                </VerticalStackLayout>
+            </Grid>
+
+            <Button
+                Text="Save Pet"
+                Clicked="OnSaveClicked"
+                HorizontalOptions="Fill"
+                BackgroundColor="{StaticResource Primary}"
+                TextColor="White"
+                FontAttributes="Bold"
+                CornerRadius="10"
+                Margin="0,20,0,0"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

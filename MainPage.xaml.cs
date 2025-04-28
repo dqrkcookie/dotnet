@@ -8,6 +8,10 @@
             InitializeComponent();
         }
 
+        private async void AddPetButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddPetPage());
+        }
     }
 
 }
