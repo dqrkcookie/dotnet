@@ -15,7 +15,7 @@ public class MainActivity : MauiAppCompatActivity
         base.OnCreate(savedInstanceState);
 
         // Set the status bar color to a brown color
-        Window.SetStatusBarColor(Android.Graphics.Color.ParseColor("#542a0e"));
+        Window.SetStatusBarColor(Android.Graphics.Color.ParseColor("#F5E5C8"));
 
     }
 }

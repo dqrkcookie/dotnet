@@ -1,4 +1,4 @@
-runtimes\win-x64\native\WebView2Loader.dll
+Chewy-Regular.ttf
 FluentUI.cs
 OpenSans-Regular.ttf
 OpenSans-Semibold.ttf
@@ -48,7 +48,6 @@ appiconWideTile.scale-125.png
 appiconWideTile.scale-150.png
 appiconWideTile.scale-200.png
 appiconWideTile.scale-400.png
-bg.scale-100.png
 daycare.scale-100.png
 dog.scale-100.png
 dotnet_bot.scale-100.png
@@ -56,8 +55,9 @@ dotnet_bot.scale-125.png
 dotnet_bot.scale-150.png
 dotnet_bot.scale-200.png
 dotnet_bot.scale-400.png
-icon.scale-100.png
+gb.scale-100.png
 pet_house.scale-100.png
+sample.scale-100.png
 splash_pet.scale-100.png
 treat.scale-100.png
 iconSplashScreen.scale-100.png

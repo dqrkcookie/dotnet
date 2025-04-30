@@ -5,14 +5,18 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Pawfect_Care"
     Shell.FlyoutBehavior="Disabled"
-    Title="Pawfect_Care">
+    Title="Pawfect_Care"
+    TabBarBackgroundColor="#DBA76A"
+    TabBarUnselectedColor="WhiteSmoke"
+    Shell.TabBarTitleColor="White"
+    Shell.TabBarForegroundColor="#8B572A">
 
     <TabBar>
         <ShellContent
             Title="Home"
             ContentTemplate="{DataTemplate local:MainPage}"
             Icon="pet_house.png"
-            Route="MainPage" />
+            Route="MainPage"/>
 
         <ShellContent
             Title="Profile"

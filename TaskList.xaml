@@ -5,4 +5,10 @@
              Title=""
              BackgroundImageSource="gb.png">
 
+    <Label
+        Text="Task List"
+        Padding="15"
+        FontSize="24"
+        TextColor="#8B572A"/>
+
 </ContentPage>

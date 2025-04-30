@@ -35,7 +35,7 @@
                 Margin="0,30,0,0"
                 Padding="0,15"
                 CornerRadius="100"
-                BackgroundColor="#D2B48C"
+                BackgroundColor="#8B572A"
                 TextColor="White"
                 FontAttributes="Bold"/>
         </VerticalStackLayout>

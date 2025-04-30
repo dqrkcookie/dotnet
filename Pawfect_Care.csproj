@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>Pawfect_Care</ApplicationTitle>
+		<ApplicationTitle>Pawfect Care</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.pawfect_care</ApplicationId>
@@ -60,7 +60,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Include="Resources\Splash\icon.png" />
+	  <AndroidResource Remove="Platforms\Android\Resources\values\styles.xml" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -83,11 +83,6 @@
 	  <MauiXaml Update="TaskList.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiAsset Include="Resources\AppIcon\appicon.svg" />
-	  <MauiAsset Include="Resources\AppIcon\appiconfg.svg" />
 	</ItemGroup>
 
 </Project>
