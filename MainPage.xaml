@@ -14,16 +14,17 @@
             <Label 
                 Text="Pawfect Care"
                 SemanticProperties.HeadingLevel="Level1"
-                FontSize="36"
+                FontSize="42"
                 HorizontalOptions="Center"
-                TextColor="White"
+                TextColor="#8B572A"
                 FontAttributes="Bold"/>
 
             <Label 
-                Text="Your pet care companion"
+                Text=" Your pet care companion "
                 FontSize="18"
                 HorizontalOptions="Center"
-                TextColor="White"/>
+                TextColor="Chocolate"
+                FontAttributes="Italic"/>
 
             <Button 
                 x:Name="AddPetButton"

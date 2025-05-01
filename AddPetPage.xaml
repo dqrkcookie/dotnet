@@ -13,7 +13,7 @@
                 HeightRequest="150"
                 WidthRequest="150"
                 CornerRadius="75"
-                BorderColor="{StaticResource Primary}"
+                BorderColor="WhiteSmoke"
                 Padding="0"
                 Margin="0,5,0,10">
 
@@ -24,7 +24,6 @@
                 <Grid>
                     <Image
                         x:Name="PetImage"
-                        Source="pet_placeholder.png"
                         Aspect="AspectFill"/>
 
                     <Label

@@ -19,7 +19,7 @@
             Route="MainPage"/>
 
         <ShellContent
-            Title="Profile"
+            Title="My Pets"
             ContentTemplate="{DataTemplate local:Profile}"
             Icon="dog.png"
             Route="Profile" />

@@ -44,8 +44,35 @@ namespace Pawfect_Care
 
         private async void PetsListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
+            var selected = await DisplayActionSheet("Select Action", "Back", null, "View Pet", "Remove Pet");
+            var pet = e.Item as pet_local_db;
+            if (pet == null) return;
 
+            switch (selected)
+            {
+                case "View Pet":
+                    
+                    if(pet != null)
+                    {
+                        await Navigation.PushAsync(new PetDetails());
+                    }
+                    break;
+                case "Remove Pet":
+                    var petToRemove = e.Item as pet_local_db;
+                    if(petToRemove != null)
+                    {
+                        var result = await DisplayAlert("Remove Pet", $"Are you sure you want to remove {petToRemove.pet_name}?", "Yes", "No");
+                        if (result)
+                        {
+                            await db_service.DeletePet(petToRemove.pet_id);           
+                            await DisplayAlert("Pet Removed", $"{petToRemove.pet_name} has been removed from your pets.", "OK");
+                            pets.Remove(petToRemove);
+                        }
+                    }
+                    break;
+            }
         }
+
     }
 
 }

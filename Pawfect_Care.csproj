@@ -74,6 +74,9 @@
 	  <MauiXaml Update="AddPetPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="PetDetails.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Profile.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

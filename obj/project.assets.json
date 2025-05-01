@@ -28644,11 +28644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DarkCookie\\source\\repos\\Pawfect_Care\\Pawfect_Care\\Pawfect_Care.csproj",
+      "projectUniqueName": "C:\\Users\\DarkCookie\\OneDrive\\Documents\\new\\Pawfect_Care\\Pawfect_Care\\Pawfect_Care.csproj",
       "projectName": "Pawfect_Care",
-      "projectPath": "C:\\Users\\DarkCookie\\source\\repos\\Pawfect_Care\\Pawfect_Care\\Pawfect_Care.csproj",
+      "projectPath": "C:\\Users\\DarkCookie\\OneDrive\\Documents\\new\\Pawfect_Care\\Pawfect_Care\\Pawfect_Care.csproj",
       "packagesPath": "C:\\Users\\DarkCookie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DarkCookie\\source\\repos\\Pawfect_Care\\Pawfect_Care\\obj\\",
+      "outputPath": "C:\\Users\\DarkCookie\\OneDrive\\Documents\\new\\Pawfect_Care\\Pawfect_Care\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
