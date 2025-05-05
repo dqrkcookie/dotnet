@@ -1042,3 +1042,5 @@ C:\Users\DarkCookie\OneDrive\Documents\new\Pawfect_Care\Pawfect_Care\obj\Debug\n
 C:\Users\DarkCookie\OneDrive\Documents\new\Pawfect_Care\Pawfect_Care\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\DarkCookie\OneDrive\Documents\new\Pawfect_Care\Pawfect_Care\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\DarkCookie\OneDrive\Documents\new\Pawfect_Care\Pawfect_Care\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\DarkCookie\OneDrive\Documents\new\Pawfect_Care\Pawfect_Care\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\loading.scale-100.png
+C:\Users\DarkCookie\OneDrive\Documents\new\Pawfect_Care\Pawfect_Care\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.png

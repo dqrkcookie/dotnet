@@ -51,10 +51,16 @@ namespace Pawfect_Care
 
             if (hasEmptyField)
             {
-                await DisplayAlert("Oops! Failed to add pet.", "Please fill in all the fields!", "OK");
+                await DisplayAlert("Oops! Failed to add pet.", "Please fill in all the fields.", "OK");
                 return;
             }
-             
+
+            if (new[] { pets.pet_name, pets.pet_gender, pets.pet_breed }.Any(s => s.Length > 16))
+            {
+                await DisplayAlert("Oops! Failed to add pet,", "Limit the inputs to 16 characters only.", "OK");
+                return;
+            }
+
             await db_service.AddPet(pets);
             await DisplayAlert("Pet Added!", $"Name: {pets.pet_name}\nGender: {pets.pet_gender}\nAge: {pets.pet_age}\nBreed: {pets.pet_breed}", "OK");
 

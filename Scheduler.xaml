@@ -3,12 +3,49 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pawfect_Care.Scheduler"
              Title=""
-             BackgroundImageSource="gb.png">
+             BackgroundImageSource="gb.png"
+             Padding="20">
 
-    <Label
-        Text="Scheduler"
-        Padding="15"
-        FontSize="24"
-        TextColor="#8B572A"/>
+    <ScrollView>
+        <VerticalStackLayout Spacing="15">
+
+            <Label Text="Pet Scheduler" FontSize="24" HorizontalOptions="Center" />
+
+            <Picker x:Name="PetPicker"
+            Title="Select Pet Name" 
+            ItemDisplayBinding="{Binding pet_name}">
+            </Picker>
+
+            <DatePicker x:Name="DatePicker"
+            Format="MMMM dd, yyyy" />
+
+            <TimePicker x:Name="TimePicker" />
+
+            <Picker x:Name="PurposePicker" Title="Select Purpose">
+                <Picker.Items>
+                    <x:String>Meal</x:String>
+                    <x:String>Bath</x:String>
+                    <x:String>Play</x:String>
+                    <x:String>Walk</x:String>
+                    <x:String>Check up</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Button Text="Add Schedule" Clicked="OnAddScheduleClicked" />
+
+            <Label Text="Scheduled Tasks:" FontAttributes="Bold" FontSize="18" />
+
+            <CollectionView x:Name="ScheduleCollection">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Gray" CornerRadius="10" Padding="10" Margin="5">
+                            <Label Text="{Binding}" />
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
